@@ -4,6 +4,9 @@
 }
 
 /* Shared styles */
+.secondary-bg {
+  background-color: #fff8f3;
+}
 .primary-color {
   color: #fd6e0a;
 }
@@ -26,8 +29,17 @@
   border: none;
   cursor: pointer;
 }
+
+.section-title {
+  font-size: 35px;
+  font-weight: bold;
+}
+.section-description {
+  font-size: 18px;
+  color: #757575;
+}
 /* Header starts here */
-header {
+.header {
   background-image: url("../images/developer.png"),
     url("../images/header_bg.png");
   background-repeat: no-repeat;
@@ -82,4 +94,27 @@ ul > li > a {
 
 .banner-profile-pic {
   max-width: 584px;
+}
+
+/* Main start here */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* About section start here */
+.about {
+  padding: 120px 150px;
+  text-align: center;
+  margin-top: 130px;
+  border-radius: 10px;
+}
+
+.item-description {
+  font-weight: 600;
+}
+.about-items {
+  display: flex;
+  justify-content: space-around;
+  line-height: 10px;
 }
