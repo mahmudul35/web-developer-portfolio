@@ -38,6 +38,9 @@
   font-size: 18px;
   color: #757575;
 }
+.text-align {
+  text-align: center;
+}
 /* Header starts here */
 .header {
   background-image: url("../images/developer.png"),
@@ -102,6 +105,10 @@ main {
   margin: 0 auto;
 }
 
+main section {
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
 /* About section start here */
 .about {
   padding: 120px 150px;
@@ -117,4 +124,26 @@ main {
   display: flex;
   justify-content: space-around;
   line-height: 10px;
+}
+
+/* skills section starts here */
+
+.skills-container {
+  display: flex;
+  gap: 24px;
+}
+
+.skill {
+  max-width: 267px;
+  max-height: 377px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 30px;
+  box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+.skills-section-title {
+  margin-bottom: 30px;
+}
+.skills-section-description {
+  margin-bottom: 50px;
 }
