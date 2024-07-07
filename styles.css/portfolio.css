@@ -147,3 +147,41 @@ main section {
 .skills-section-description {
   margin-bottom: 50px;
 }
+
+/* Resume section starts here */
+.resume-container {
+  display: flex;
+  gap: 24px;
+}
+
+.experience-description,
+.experience-subtitle {
+  color: #757575;
+}
+
+.experience-subtitle {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.experience-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.reume-column-tittle {
+  font-size: 30px;
+  font-weight: bold;
+  color: #474747;
+}
+
+.resume hr {
+  margin: 30px 5px;
+}
+
+.resume-btn-container {
+  text-align: center;
+  margin-top: 50px;
+}
